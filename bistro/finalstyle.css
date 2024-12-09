@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+body {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 100%;
+  line-height: 1.75;
+  margin: 0 10%;
+  background-color: #faf2e4;
+  background-image: url(images/blackgoose2.png);
+  background-repeat: no-repeat;
+  background-position: center 100px;
+  background-attachment: fixed;
+}
+
+header {
+  text-align: center;
+  background: url(images/reddot.png) center top repeat-x;
+  background: 
+    url(images/reddot.png) left top repeat-y,
+    url(images/reddot.png) right top repeat-y,
+    url(images/gooseshadow.png) 90% bottom no-repeat,
+    url(images/gooseshadow.png) 10% bottom no-repeat;
+  padding: 15.7px;
+  background-color:rgba(255,255,255,.5);
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #d1633c;
+  text-transform: uppercase;
+  border-bottom: 1px solid #dc7d57;
+  margin-top: 30px;
+}
+
+h2 {
+  font-size: 1em;
+  text-transform: uppercase;
+  color: #d1633c;
+  margin-top: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #dc7257;
+}
+
+a:visited {
+  color: #f8b02a;
+}
+
+a:hover {
+  color: #00cef2;
+}
+
+a:active {
+  color: rgb(0, 225, 255);
+  background-color: #fff;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+dt {
+  font-weight: bold;
+}
+
+strong {
+  font-style: italic;
+}
+
+footer {
+  border-top: 1px solid #dc7d57;
+  text-align: center;
+  padding-top: 1em;
+}
+
+footer img {
+  width: 40px;
+  height: 40px;
+  margin: 0.5em;
+}
